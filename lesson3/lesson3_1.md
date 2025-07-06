@@ -8,3 +8,16 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    table_constraints
 );
 ```
+
+## 建立一個student的資料表
+```sql
+CREATE TABLE IF NOT EXISTS student(
+    student_id SERIAL PRIMARY KEY,
+    name VARCHAR(20) NOT NULL,
+    major VARCHAR(20) UNIQUE
+);
+```
+* DBeaver -> SQL -> 開啟SQL腳本 -> New Script -> tab右鍵 -> 重新命名檔案
+* 選取要執行的程式碼 > 右邊:執行
+* 右邊選單欄 > 表格群右鍵 > Refresh
+

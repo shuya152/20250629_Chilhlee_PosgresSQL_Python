@@ -9,7 +9,7 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 
 ### install
 * [node.js](https://nodejs.org/zh-tw)
-* [DBeaver](https://dbeaver.io/) -> 新建連結 -> postgreSQL -> Port:5432 -> 測試連線
+* [DBeaver](https://dbeaver.io/) -> 新建連結 -> postgreSQL -> Port:5432 / local_postgres / rashberry -> 測試連線
 * [vscode](https://code.visualstudio.com/) -> [git](https://github.com/roberthsu2003/python/tree/master/vscode%E8%A8%AD%E5%AE%9A) -> container tools + dev container
 * container tools -> miniconda3 -> 右鍵 -> 連結VS code
 * clone repo -> home
