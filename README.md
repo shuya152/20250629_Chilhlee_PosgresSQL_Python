@@ -14,7 +14,6 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 * container tools -> miniconda3 -> 右鍵 -> 連結VS code
 * clone repo -> home
 
----
 > 不用了
 * claud desktop
 settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/postgres):
@@ -32,4 +31,3 @@ settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](htt
   }
 }
 ```
----
