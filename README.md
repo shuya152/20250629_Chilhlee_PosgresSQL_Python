@@ -11,7 +11,8 @@ signin->upload->[postgres](https://github.com/roberthsu2003/python-SQLite-MySQL/
 * [node.js](https://nodejs.org/zh-tw)
 * [DBeaver](https://dbeaver.io/)
 * [vscode](https://code.visualstudio.com/) -> [git](https://github.com/roberthsu2003/python/tree/master/vscode%E8%A8%AD%E5%AE%9A)->container tools+dev container
-* container tools -> 
+* container tools -> miniconda3 -> 右鍵 -> 連結VS code
+* clone repo -> home
 
 * claud desktop
 settings->Developer->Edit Config->claude_desktop_config.json->[edit](https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/postgres):
