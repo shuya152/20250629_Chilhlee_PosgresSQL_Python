@@ -39,4 +39,39 @@ VALUES ('呂育君','歷史');
 INSERT INTO student (name, major)
 VALUES ('小柱','生物'),('信忠','英語');
 ```
+
+## 取得資料[↗︎](https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E4%B8%8A%E8%AA%B2%E7%94%A8sql/6%E5%8F%96%E5%BE%97%E8%B3%87%E6%96%99.md)
+```sql
+SELECT student_id, name, major
+FROM student;
+```
+* 一行寫法<br>
+```
+SELECT student_id, name, major FROM student;
+```
+* 縮排寫法<br>
+```
+SELECT
+    student_id, name, major
+FROM
+    student;
+```
+* 所有欄位寫法<br>
+```
+SELECT *;
+```
+* WHERE / ORDER BY<br>
+```
+SELECT * FROM student
+WHERE name='信忠'
+ORDER BY student_id ASC;
+```
+> ASC：小到大<br>DESC：大到小
+
+* LIMIT 限制筆數<br>
+```
+SELECT * FROM student
+ORDER BY student_id DESC
+LIMIT 3;
+```
 ---
