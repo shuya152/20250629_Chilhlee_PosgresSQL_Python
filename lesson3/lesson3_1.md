@@ -1,4 +1,4 @@
-## 建立資料表的語法[](https://neon.com/postgresql/postgresql-tutorial/postgresql-create-table)
+## 建立資料表的語法[↗︎](https://neon.com/postgresql/postgresql-tutorial/postgresql-create-table)
 
 ```sql
 CREATE TABLE [IF NOT EXISTS] table_name (
