@@ -1,3 +1,7 @@
+> 2025-07-13<br>
+上課前先匯入csv檔(需下載)
+
+---
 ### class
 [Python大數據與PostgresSQL資料庫](https://github.com/roberthsu2003/__2025_06_29_chihlee_postgres__)
 ### signin
@@ -15,8 +19,8 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 * clone repo -> home
 
 
-> 不用了
-claud desktop
+**不用了**
+### claud desktop
 settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/postgres):
 ```
 {
