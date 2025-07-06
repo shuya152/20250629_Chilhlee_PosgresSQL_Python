@@ -33,8 +33,7 @@ DROP TABLE IF EXISTS student;
 INSERT INTO student (name, major)
 VALUES ('呂育君','歷史');
 ```
-
-## 新增多筆資料
+* 新增多筆資料
 ```sql
 INSERT INTO student (name, major)
 VALUES ('小柱','生物'),('信忠','英語');
@@ -74,4 +73,25 @@ SELECT * FROM student
 ORDER BY student_id DESC
 LIMIT 3;
 ```
+
+## 更新資料
+```sql
+UPDATE student
+SET name = '阿柱',
+    major = '數學'
+WHERE student_id = 2;
+```
+
+## 刪除資料
+```sql
+DELETE FROM student
+WHERE student_id = 2;
+```
+
+* 刪除多筆資料[↗︎](https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E4%B8%8A%E8%AA%B2%E7%94%A8sql/6%E5%8F%96%E5%BE%97%E8%B3%87%E6%96%99.md#%E9%81%8E%E6%BF%BEwhere%E4%BD%BF%E7%94%A8in%E7%AD%89%E5%90%8C%E6%96%BC%E4%BD%BF%E7%94%A8or)
+```sql
+DELETE FROM student
+WHERE student_id in (1,3,4);
+```
+
 ---
