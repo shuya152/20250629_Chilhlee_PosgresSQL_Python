@@ -21,3 +21,22 @@ CREATE TABLE IF NOT EXISTS student(
 * 選取要執行的程式碼 > 右邊:執行
 * 右邊選單欄 > 表格群右鍵 > Refresh
 
+## 刪除資料表[↗︎](https://neon.com/postgresql/postgresql-tutorial/postgresql-drop-table)
+```sql
+DROP TABLE IF EXISTS student;
+```
+* DBeaver -> 選取要執行的程式碼 > 右邊:執行
+* 右邊選單欄 > 表格群右鍵 > Refresh
+
+## 新增一筆資料
+```sql
+INSERT INTO student (name, major)
+VALUES ('呂育君','歷史');
+```
+
+## 新增多筆資料
+```sql
+INSERT INTO student (name, major)
+VALUES ('小柱','生物'),('信忠','英語');
+```
+---
