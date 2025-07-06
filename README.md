@@ -16,7 +16,7 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 
 
 > 不用了
-* claud desktop
+claud desktop
 settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/postgres):
 ```
 {
