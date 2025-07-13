@@ -3,7 +3,8 @@
 
 ---
 ### class
-[Python大數據與PostgresSQL資料庫](https://github.com/roberthsu2003/__2025_06_29_chihlee_postgres__)
+* [Python大數據與PostgresSQL資料庫](https://github.com/roberthsu2003/__2025_06_29_chihlee_postgres__)
+* [助教](https://github.com/samhsiao6238/PythonFinance_2024/tree/main)
 ### signin
 * github
 * google
