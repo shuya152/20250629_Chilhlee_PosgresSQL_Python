@@ -1,6 +1,8 @@
--- DROP TABLE IF EXISTS employee CASCADE; --關聯式:連動刪除
+-- DROP TABLE IF EXISTS employee CASCADE; --關聯式(foreign key -> 一般指向PRIMARY KEY(獨一無二)):連動刪除
 
 DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS  branch;
+
 CREATE TABLE employee(
 	emp_id SERIAL,
 	name VARCHAR(20),
@@ -11,3 +13,18 @@ CREATE TABLE employee(
 	sup_id INT,
  	PRIMARY KEY(emp_id)
 );
+
+CREATE TABLE branch(
+	branch_id INT,
+	branch_name VARCHAR(20),
+	manager_id INT,
+	PRIMARY KEY(branch_id),
+	FOREIGN KEY(manager_id)
+	REFERENCES employee(emp_id) ON DELETE SET NULL
+);
+
+ALTER TABLE employee ADD FOREIGN KEY(branch_id)
+REFERENCES branch(branch_id) ON DELETE SET NULL;
+
+ALTER TABLE employee ADD FOREIGN KEY(sup_id)
+REFERENCES employee(emp_id) ON DELETE SET NULL;
