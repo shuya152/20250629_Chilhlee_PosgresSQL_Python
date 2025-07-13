@@ -13,12 +13,12 @@
 signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/python-SQLite-MySQL/tree/master/postgresSQL#docker-%E5%AE%89%E8%A3%9D) -> [miniconda](https://github.com/roberthsu2003/python/tree/master/%E4%BD%BF%E7%94%A8Dock%E5%AE%B9%E5%99%A8%E9%96%8B%E7%99%BC#%E6%AD%A5%E9%A9%9F2-%E5%BB%BA%E7%AB%8B%E5%AE%B9%E5%99%A8) -> (base)root@...
 
 ### install
-* [node.js](https://nodejs.org/zh-tw)
 * [DBeaver](https://dbeaver.io/) -> 新建連結 -> postgreSQL -> Port:5432 / local_postgres / rashberry -> 測試連線
 * [vscode](https://code.visualstudio.com/) -> 確認安裝 container tools + dev container
 * container tools -> miniconda3 -> 右鍵 -> 連結VS code
 * clone repo -> home
 * [git](https://github.com/roberthsu2003/python/tree/master/vscode%E8%A8%AD%E5%AE%9A)
+* [node.js](https://nodejs.org/zh-tw) -> [安裝至Docker環境](https://github.com/roberthsu2003/python/tree/master/%E4%BD%BF%E7%94%A8Dock%E5%AE%B9%E5%99%A8%E9%96%8B%E7%99%BC#%E6%96%B9%E6%B3%952) -> 在VSCode終端機：pip install nodejs
 
 ### DBeaver大寫設定
 視窗 -> Preferences -> 編輯器 -> SQL編輯器 -> 格式化 -> Keyword case:Upper -> Apply and Close
