@@ -20,6 +20,10 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 * clone repo -> home
 * [git](https://github.com/roberthsu2003/python/tree/master/vscode%E8%A8%AD%E5%AE%9A)
 
+### DBeaver大寫設定
+視窗 -> Preferences -> 編輯器 -> SQL編輯器 -> 格式化 -> Keyword case:Upper -> Apply and Close
+
+
 **不用了**
 ### claud desktop
 settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/postgres):
