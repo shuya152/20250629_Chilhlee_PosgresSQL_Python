@@ -22,8 +22,7 @@ signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/pyth
 * container tools -> roberthsu2003 -> 右鍵 -> 連結VS code -> 擴充:python+jupyter
 * clone repo -> 20250629_Chilhlee_PosgresSQL_Python -> 選取存放目的地 -> home
 * [初始化git](https://github.com/roberthsu2003/python/tree/master/vscode%E8%A8%AD%E5%AE%9A)
-* .vscode/map.json -> 點擊"開始" -> v正在執行
-* 開啟copiler -> 輸入#query -> 點擊有".vscode/mcp.json" -> 輸入"請問我的postgres有多少個資料表" -> 找到之後按"繼續" 
+
 <!-- 不用了
 * [node.js](https://nodejs.org/zh-tw) -> [安裝至Docker環境](https://github.com/roberthsu2003/python/tree/master/%E4%BD%BF%E7%94%A8Dock%E5%AE%B9%E5%99%A8%E9%96%8B%E7%99%BC#%E6%96%B9%E6%B3%952) -> 在VSCode終端機：pip install nodejs
 -->
