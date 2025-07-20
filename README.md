@@ -9,8 +9,10 @@
 * [上課的連結](https://meet.google.com/qbi-juyg-amj)
 ### signin
 * github
+<!-- 沒用到
 * google
 * [perplexity](https://www.perplexity.ai/)
+-->
 * docker
 signin -> upload -> terminal -> [postgres](https://github.com/roberthsu2003/python-SQLite-MySQL/tree/master/postgresSQL#docker-%E5%AE%89%E8%A3%9D) -> [miniconda(方法2)](https://github.com/roberthsu2003/python/tree/master/%E4%BD%BF%E7%94%A8Dock%E5%AE%B9%E5%99%A8%E9%96%8B%E7%99%BC#%E6%96%B9%E6%B3%952) -> (base)root@...
 
