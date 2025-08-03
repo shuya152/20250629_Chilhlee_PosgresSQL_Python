@@ -21,7 +21,7 @@ def create_connection():
         host="host.docker.internal",
         database="postgres",
         user="postgres",
-        password="raspberry",
+        password="rashberry",
         port="5432"
     )
     return conn
