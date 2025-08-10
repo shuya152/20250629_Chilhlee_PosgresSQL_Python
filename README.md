@@ -48,3 +48,19 @@ settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](htt
 }
 ```
 -->
+
+### 
+[render.com](https://render.com/)
+
+### IMPOR(requirements)
+* [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
+* [python-dotenv](https://pypi.org/project/python-dotenv/)
+
+```bash
+pip install -r requirements.txt
+```
+
+* 看裝了那些套件
+```bash
+pip list
+```
