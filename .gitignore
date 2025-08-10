@@ -1,0 +1,4 @@
+# .env
+# 環境變數
+# .gitignore
+*/__pycache__/
