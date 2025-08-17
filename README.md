@@ -49,9 +49,12 @@ settings -> Developer -> Edit Config -> claude_desktop_config.json -> [edit](htt
 ```
 -->
 
-### 
+### 雲端資料庫
 [render.com](https://render.com/)
-
+* External Database URL > DBeaver > URL
+```
+postgresql://帳號:密碼@主機位置/資料庫名稱
+```
 ### IMPOR(requirements)
 * [psycopg2-binary](https://pypi.org/project/psycopg2-binary/)
 * [python-dotenv](https://pypi.org/project/python-dotenv/)
@@ -64,3 +67,10 @@ pip install -r requirements.txt
 ```bash
 pip list
 ```
+
+### Streamlit
+* [python Streamlit](https://github.com/roberthsu2003/pythonStreamlit)
+* [streamlit](https://streamlit.io/)
+> playground > hello / Dataframes
+> doc > develop > API reference
+
