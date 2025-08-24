@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "render_postgres": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "[External Database URL]slmode=require"
+            ]
+        }
+    }
+}
